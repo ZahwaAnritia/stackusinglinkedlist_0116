@@ -39,6 +39,10 @@ public:
 		return top == NULL;
 	}
 
+	void peek() {
+		
+	}
+
 
 	
 };
