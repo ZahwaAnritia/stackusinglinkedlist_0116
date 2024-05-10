@@ -35,10 +35,6 @@ public:
 		cout << "Popped value:" << top->data << endl;
 		top = top->next;
 	}
-	bool isEmpty() {
-		return top == NULL;
-	}
-
 	void peek() {
 		if (top == NULL) {
 			cout << "List is empty." << endl;
@@ -53,14 +49,10 @@ public:
 			}
 			cout << endl;
 		}
-
-
-		
 	}
 	bool isEmpty() {
 		return top == NULL;
 	}
-
 
 	
 };
